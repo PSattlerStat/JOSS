@@ -7,11 +7,7 @@ tags:
 - hypothesis testing
 - approximate test statistic
 - companion matrix
-date: "2025-10-10"
-output:
-  html_document:
-    df_print: paged
-  pdf_document: default
+date: \today
 authors:
 - name: Paavo Sattler
   orcid: "0000-0001-8731-0893"
@@ -22,16 +18,17 @@ authors:
   orcid: "0009-0008-6793-869X"
   affiliation: 3
 bibliography: paper.bib
+citation_author: Sattler and Rosenbaum
 affiliations:
 - index: 1
   name: Department of Statistics, TU Dortmund University, Germany
-- index: 2
+- index: 2 
   name: Institute of Statistics, RWTH Aachen University, Aachen, Germany
 - index: 3
   name: Institute of Statistics, Ulm University, Helmholtzstrasse 20, 89081 Ulm, Germany
-editor_options:
-  markdown:
-    wrap: 72
+output: rticles::joss_article
+
+journal: JOSS
 ---
 
 # Summary
@@ -127,3 +124,7 @@ CompareHypotheses(H, c, H2, c2)
 # 4. Assess potential computational gain
 
 HypothesisPotential(H, c)
+
+```
+
+# References
